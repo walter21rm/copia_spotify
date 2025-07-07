@@ -3,6 +3,5 @@ import App from './App';
 
 test('la app se renderiza sin errores', () => {
   render(<App />);
-  // Puedes cambiar el texto según lo que muestre tu App
-  expect(screen.getByText(/spotify/i)).toBeInTheDocument();
+  expect(screen.getByText(/bienvenido a musicplayer/i)).toBeInTheDocument();
 }); 
