@@ -38,6 +38,7 @@ function App() {
         <Router>
           <Navbar />
           <Container sx={{ mt: 2, mb: 8 }}>
+            <h1>Bienvenido a MusicPlayer</h1>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/login" element={<Login />} />
