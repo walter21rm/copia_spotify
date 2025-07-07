@@ -32,3 +32,5 @@ npm start
 - Búsqueda de canciones
 - Gestión de playlists
 - Interfaz responsive y moderna 
+
+Prueba de CI funcionando. 
